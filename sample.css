@@ -159,6 +159,9 @@ footer .footer-bottom{
         grid-template-columns: repeat(2,1fr);
         
     }
+      a .nn{
+        font-size: x-small;
+    }
     
     }
     
