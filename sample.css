@@ -162,6 +162,9 @@ footer .footer-bottom{
       a .nn{
         font-size: x-small;
     }
+        .nn{
+        gap: .2 rem;
+    }
     
     }
     
