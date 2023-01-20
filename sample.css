@@ -55,14 +55,16 @@ nav a{
     color: #eee;
 }
 nav li:hover{
-    background-color: #444;
+    background-color: rgb(5, 94, 47);
 }
 .container{
     max-width: 1180px;
     text-align: center;
     margin:0 auto;
     padding: 0 3rem;
+    
 }
+
 .lead{
     font-size: 1.3rem;
 }
@@ -86,11 +88,78 @@ footer .footer-cols ul li:first-child{
 footer .footer-bottom{
     background-color: #333;
     padding: 1rem;
-    text-align: center
-    ;
+    text-align: center;
 
 }
 .center {
     margin-left: auto;
     margin-right: auto;
   }
+  .tab{
+    font-size: 3em;
+     background-color: rgb(84, 86, 82);
+  }
+  @media screen and (max-width:700px) {
+    footer.footer-bottom{
+       
+        margin-left: 300px;
+
+
+
+    }
+    .container{
+        margin: auto;
+        font-size: 30px;
+        
+        
+    }
+    #showcase{
+        background : url('qq.jpeg') no-repeat center/cover ;
+         width: 100%;
+         overflow:hidden;
+
+
+    }
+
+    footer .footer-bottom{
+        background-color: #333;
+        padding: 1rem;
+        text-align: center;
+        width: 100%;
+    
+    }
+    .container{
+        text-align: center;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+
+    }
+    .fix{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+    }
+    .center {
+        margin-left: auto;
+        margin-right: auto;
+      }
+      .tab{
+        font-size: 2em;
+        background-color: rgb(244, 246, 242);
+        color: #252529;
+      }
+      footer .footer-cols{
+        
+        grid-template-columns: repeat(2,1fr);
+        
+    }
+    
+    }
+    
+  
